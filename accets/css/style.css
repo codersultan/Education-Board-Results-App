@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.admin-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.edu-borad {
+  width: 100%;
+  height: 100vh;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.edu-wrapper {
+  width: 640px;
+  height: auto;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.edu-header {
+  display: flex;
+  height: 121px;
+  gap: 2px;
+}
+
+.logo {
+  width: 22%;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.logo img {
+  width: 82px;
+}
+
+.header-info {
+  width: 78%;
+  background-color: #007814;
+}
+
+.header-top h1 {
+  color: #95e17d;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.header-bottom {
+  border-top: 1px solid #62b44a;
+}
+
+.header-info h2 {
+  color: #ffffee;
+  margin: 3px 0px 0px 5px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 4px 0px;
+}
+
+.header-info p {
+  font-size: 11px;
+  text-align: end;
+  background-image: url("http://www.educationboardresults.gov.bd/images/bar_bk.jpg");
+  background-repeat: repeat-x;
+  border-top: 1px solid #ffffff;
+  padding: 5px 6px;
+}
+
+.header-info a {
+  color: #fff;
+}
+
+.header-info a:hover {
+  color: #95e17d;
+}
+
+.edu-body {
+  border: 2px solid #6c6c6c;
+  padding: 30px 60px;
+}
+
+.result-form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.result-form div label {
+  width: 150px;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.result-form div span {
+  margin-right: 30px;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.result-form div select,
+.result-form div input {
+  font-size: 12px;
+  color: #000;
+  outline: none !important;
+  background-color: #f4f0f2;
+  padding: 4px 5px;
+  border: 1px solid #333;
+}
+
+.result-form div select:focus,
+.result-form div input:focus {
+  border: none;
+  box-shadow: 0 0 0 2px #333 inset;
+  padding: 5px 5px;
+}
+
+.result-form div:last-child {
+  display: block;
+  text-align: right;
+}
+
+.result-form div:last-child input {
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-size: 13px;
+  padding: 1px 8px;
+}
+.result-form div:last-child input:hover {
+  background-color: #e5e5e5;
+}
+
+.edu-footer {
+  background-color: #f2f2f2;
+  border-top: 5px solid #86c775;
+  border-radius: 0px 0px 8px 8px;
+  padding: 13px 5px;
+}
+
+.edu-footer p {
+  font-size: 10px;
+  color: #666666;
+  margin-bottom: 0;
+}
+
+.edu-footer img {
+  padding: 0px 16px;
+}
+
+/* Student Admin Panel */
+.card-header h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.data-table button {
+  font-size: 12px;
+}
+
+.data-table table th,
+.data-table table td {
+  text-align: left !important;
+}
+
+/* Result Sheet Style */
+.student-info h2,
+.Grade-sheet h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0px;
+}
+
+.student-info table td,
+.Grade-sheet table th,
+.Grade-sheet table td {
+  color: #000;
+  font-size: 12px;
+  border: 1px solid #fff;
+  background-color: #eeeeee;
+  padding: 2px;
+}
+
+.student-info table td:nth-child(1) {
+  width: 75px;
+}
+
+.student-info table td:nth-child(2) {
+  width: 170px;
+}
+
+.student-info table td:nth-child(3) {
+  width: 140px;
+}
+
+.Grade-sheet table {
+  margin-top: -7px;
+}
+
+.Grade-sheet table th {
+  background-color: #afb7be;
+}
+
+.Grade-sheet table tr:nth-child(odd) td {
+  background-color: #dee1e4;
+}
+
+.Grade-sheet table th:first-child {
+  width: 120px;
+}
+.Grade-sheet table th:nth-child(2) {
+  width: 320px;
+}
+
+.search-btn a {
+  font-size: 11px;
+  color: #00f;
+}
+
+.search-btn a:hover {
+  color: #f00;
+}
+
+/* // Modal style */
